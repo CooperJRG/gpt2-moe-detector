@@ -31,29 +31,6 @@ A Python implementation of a four‑expert Mixture‑of‑Experts (MoE) model to
 
 ---
 
-## 📁 Repository Structure
-
-```
-
-gpt2-moe-detector/
-├── data/
-│   ├── small-117M.train.jsonl
-│   └── webtext.train.jsonl
-├── notebooks/
-│   └── PML\_project.ipynb        # Core implementation and experiments
-├── src/
-│   ├── data\_loading.py          # JSONL loader & train/val/test split
-│   ├── features.py              # TF‑IDF, embeddings, stylometric extraction
-│   ├── experts.py               # Expert definitions & training scripts
-│   ├── gating.py                # Gating network & EM loop
-│   └── evaluate.py              # Final evaluation and diagnostics
-├── requirements.txt             # Pinning for reproducibility
-└── README.md                    # This file
-
-````
-
----
-
 ## 🛠️ Installation
 
 1. **Clone the repo**  
