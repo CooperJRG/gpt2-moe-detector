@@ -9,6 +9,16 @@ A Python implementation of a four‑expert Mixture‑of‑Experts (MoE) model to
 
 ---
 
+## 📂 Data
+
+All training and evaluation data were sourced from the OpenAI GPT-2 Output Dataset:  
+https://github.com/openai/gpt-2-output-dataset
+
+- **small-117M.train.jsonl** — GPT-2 “small” model outputs  
+- **webtext.train.jsonl** — Human-written WebText samples  
+
+---
+
 ## 🚀 Features
 
 - **Lexical Expert**  
