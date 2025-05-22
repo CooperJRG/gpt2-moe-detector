@@ -29,37 +29,12 @@ A Python implementation of a four‑expert Mixture‑of‑Experts (MoE) model to
 - **Interpretable Routing**  
   Per‑sample expert assignments and confidence scores enable dynamic human‑in‑the‑loop review.
 
----
-
-## 🛠️ Installation
-
-1. **Clone the repo**  
-   ```bash
-   git clone https://github.com/CooperJRG/gpt2-moe-detector.git
-   cd gpt2-moe-detector
-   ```
-
-2. **Create a virtual environment & install dependencies**
-
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate
-   pip install -r requirements.txt
-   ```
-
-3. **Prepare data**
-
-   * Place `small-117M.train.jsonl` and `webtext.train.jsonl` under `data/`.
-   * (Optionally) adjust sampling sizes in `notebooks/PML_project.ipynb`.
-
----
-
 ## ▶️ Quickstart
 
 Launch the Colab notebook for an end‑to‑end walkthrough:
 
 ```bash
-jupyter notebook notebooks/PML_project.ipynb
+jupyter notebook notebooks/gpt_moe.ipynb
 ```
 
 Key steps include:
